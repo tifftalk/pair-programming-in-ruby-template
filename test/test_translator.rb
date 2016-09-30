@@ -11,12 +11,12 @@ class TestTranslator < Minitest::Test
     assert !translator.nil?, "Translator instance does not exist"
   end
 
-  def test_forward_translate
-    translator = Translator.new({ "hello" => "hola", "world" => "mundo" })
-    expected = "hola mundo"
-    actual = translator.translate_forward("hello world")
-    assert_equal expected, actual, "did not translate 'hello world' correctly forward"
-  end
+  # def test_forward_translate
+  #   translator = Translator.new({ "hello" => "hola", "world" => "mundo" })
+  #   expected = "hola mundo"
+  #   actual = translator.translate_forward("hello world")
+  #   assert_equal expected, actual, "did not translate 'hello world' correctly forward"
+  # end
 
   # Bonus: Add this test and the ability to translate in the reverse direction
   # of the dictionary.
