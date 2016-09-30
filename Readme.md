@@ -17,6 +17,7 @@ sentence punctuation or capitalization for the sake of this exercise.
 ## Getting started
 * Clone this template:
   `git clone https://github.com/tifftalk/pair-programming-in-ruby-template`
+* `cd pair-programming-in-ruby-template`
 * Switch to this branch: `git checkout template/translator`
 * run `bundle install`
 * Start a Guard session by running `bundle exec guard`
