@@ -15,7 +15,9 @@ Note that we aren't trying to build a complete dictionary, and don't worry about
 sentence punctuation or capitalization for the sake of this exercise.
 
 ## Getting started
-* git clone https://github.com/tifftalk/pair-programming-in-ruby-template
+* Clone this template:
+  `git clone https://github.com/tifftalk/pair-programming-in-ruby-template`
+* Switch to this branch: `git checkout template/translator`
 * run `bundle install`
 * Start a Guard session by running `bundle exec guard`
 * You should see that you have a single test and it is passing.
